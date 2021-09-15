@@ -4,7 +4,12 @@ const fs = require('fs');
 var path = require('path');
 var current_script_name = path.basename(__filename);
 
-var readme = "#attention <br> this file is created dynamically with "+current_script_name+" dont edit manually <br>"; 
+var readme = "# attention <br> this file is created dynamically with "+current_script_name+" dont edit manually <br>"; 
+
+readme += "# generate readme<br>"
+readme += "```node "+current_script_name+"```<br>"
+
+
 readme += "checkout the .md files below for the tutorials <br>"
 readme += "---------------<br>"
 
