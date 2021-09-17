@@ -15,3 +15,12 @@ docker-pr 11568 root    4u  IPv6 114055      0t0  TCP *:mysql (LISTEN)
 ```bash
 netstat -a | less | grep 80
 ```
+
+# list all ports
+```bash
+lsof -i
+```
+or 
+```bash
+netstat -a | less
+```
