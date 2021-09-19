@@ -33,6 +33,8 @@ polynomials are sums, (yess, also differences can be sums since `10 (+) - 15` mi
 polynomials are sums, that have N terms. each term consists of 
 the numbers in the binary string are actually the coefficients
 
+!['./dec_bin_hex_sex_polynomial.png'](./dec_bin_hex_sex_polynomial.png)
+
 <div style="font-size:2rem">
 
 <style>
