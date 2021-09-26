@@ -1,0 +1,42 @@
+#!/bin/bash
+start_num=20
+end_num=28
+increment_num=2
+echo "this is a unneccessary bash script which outputs numbers from $start_num to $end_num with an increment of $increment_num"
+for ((i=start_num ; i<=end_num; i+=increment_num))
+do
+        echo $i
+done
+echo "done !"
+echo "-------------------------"
+
+echo "now checkout this little animation " 
+width=11
+height=11
+back_char="-"
+fore_char="#"
+for ((t=0 ; t<=100; t+=1))
+do 
+tx=$((t%width))
+ty=$((t%height))
+echo -e "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    for((y=0; y<=height; y++))
+    do 
+        line=""
+        for((x=0; x<=width; x++))
+        do 
+            out=$back_char
+            if [ $x -eq $tx ];then
+                if [ $y -eq $ty ];
+                then
+                    out=$fore_char
+                fi
+            fi
+            line+=$out
+        done
+        echo $line
+    done
+    sleep 0.02
+done
+echo "finished !"
+echo "---------"
