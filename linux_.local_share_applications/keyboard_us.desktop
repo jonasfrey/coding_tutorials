@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=keyboard_us
+GenericName=keyboard_us
+X-GNOME-FullName=keyboard_us
+Exec=setxkbmap -layout us
+Icon=none
+Terminal=true
+Categories=keyboard;

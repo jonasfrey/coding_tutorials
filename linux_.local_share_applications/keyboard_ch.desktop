@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=keyboard_ch
+GenericName=keyboard_ch
+X-GNOME-FullName=keyboard_ch
+Exec=setxkbmap -layout ch
+Icon=none
+Terminal=true
+Categories=keyboard;

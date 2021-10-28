@@ -1,0 +1,9 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=xmodmap start
+Comment=xmodmap start
+Categories=Keyboard;
+Exec=/usr/bin/xmodmap /home/jf18j492/.xmodmap
+Icon=xmodmap
+MimeType=text/bash

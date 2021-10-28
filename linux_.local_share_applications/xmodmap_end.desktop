@@ -1,0 +1,9 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=xmodmap end
+Comment=xmodmap end
+Categories=Keyboard;
+Exec=setxkbmap -option
+Icon=xmodmap
+MimeType=text/bash
