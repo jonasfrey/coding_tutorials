@@ -1,11 +1,8 @@
-| language | A or B | A and B | A equals B | A not equals B | A > B | A < B | A >= B | A >= B |
-| :-------------- | :--------- | ----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: |
-| Mathematical | A ∨ B | A ^ B | A == B | A ¬ B | A > B | A < B | A ≥ B | A ≤ B |
-| python | A or B | A and B | A == B | A != B | A > B | A < B | A >= B | A >= B |
-| javascript | A \|\| B | A && B | A == B | A != B | A > B | A < B | A >= B | A >= B |
-| c# | A \|\| B or (A \| B -> if B is function it will always get executed) | A && B | A == B | A != B | A > B | A < B | A >= B | A >= B |
+# operators 
+[./progamming_and_math_compare_operators.md](./progamming_and_math_compare_operators.md)
 
-
+# truthtables
+[./truthtables.md](./truthtables.md)
 
 # more math operators
 
@@ -16,6 +13,7 @@
 <th>Meaning / definition</th>
 <th>Example</th>
 </tr>
+
 <tr>
 <td align="center" class="math"><b>
 ⋅</b></td>

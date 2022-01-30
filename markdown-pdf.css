@@ -1,0 +1,41 @@
+
+.floatingtext{
+    max-width: 50%;
+}
+*{
+  font-family: monospace;
+    font-size: 0.6rem;
+    line-height: 180%;
+
+}
+/* Document level adjustments */
+html {
+    font-size: 25px;
+  }
+  
+  /* Type will scale with document */
+  h1,h1 * {
+    font-size: 1.8rem;
+    line-height: 120%;
+  }
+  h2,h2 * {
+    font-size: 1.5rem;
+    line-height: 120%;
+  }
+  h3,h3 * {
+    font-size: 1.3rem;
+    line-height: 120%;
+  }
+  h4,h4 * {
+    font-size: 1.1rem;
+    line-height: 120%;
+  }
+  h5,h5 * {
+    font-size: 1rem;
+    line-height: 110%;
+  }
+
+
+  h5, h6, p, span, ul, ol, div {
+    font-size: 0.8rem;
+  }

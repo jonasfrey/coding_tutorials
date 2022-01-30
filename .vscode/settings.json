@@ -1,0 +1,8 @@
+{
+    "markdown-pdf.styles": [
+        "markdown-pdf.css",
+      ],
+
+      "markdown-pdf.orientation":"portrait",
+      "markdown-pdf.headerTemplate": "<div style=\"font-size: 9px; margin-left: 1cm;\">Modul: BTI1111q      -Team A      -       Projekt: Fi-T</div>"
+}

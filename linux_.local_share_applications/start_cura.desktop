@@ -1,0 +1,9 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=cura start
+Comment=cura start
+Categories=cura;3dprint;3dprinter;
+Exec=/home/$USER/Documents/Ultimaker_Cura-4.12.1.AppImage
+Icon=none
+MimeType=text/bash
